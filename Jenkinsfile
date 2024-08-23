@@ -14,7 +14,7 @@ pipeline {
                     // Nome das imagens
                     def imageNameWeb = 'allancarlosvr/web'
                     def imageNameDB = 'allancarlosvr/db'
-                    def imageNameNginx = 'rogerramossilva/nginx'
+                    def imageNameNginx = 'allancarlosvr/nginx'
 
                     // Executa o build das imagens com os respectivos Dockerfiles
                     docker.withRegistry('https://registry.hub.docker.com', 'dockerhuballan') {
