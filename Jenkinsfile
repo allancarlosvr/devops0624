@@ -41,7 +41,7 @@ pipeline {
 
                         sh 'docker-compose -f docker-compose.yml down'
                     }
-                }
+        }
         stage('Aprovação') {
                     steps {
                         input 'Deseja prosseguir com o Deploy e Push?'
